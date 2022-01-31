@@ -28,7 +28,7 @@ jobs:
     - name: Build & push Docker image
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
-        image: nagendra87k/spring-data-jpa-encryption
+        image: nagendra87k/github-actions-ci-pipeline
         tags: latest
         registry: docker.io
         dockerfile: Dockerfile
